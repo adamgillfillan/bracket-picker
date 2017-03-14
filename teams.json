@@ -1,322 +1,322 @@
 [
   {
-    "School": "Villanova",
-    "Seed": 1,
-    "Division": "East"
+    "school": "Villanova",
+    "seed": 1,
+    "division": "East"
   },
   {
-    "School": "MSMC/UNO",
-    "Seed": 2,
-    "Division": "East"
+    "school": "Duke",
+    "seed": 2,
+    "division": "East"
   },
   {
-    "School": "Wisconsin",
-    "Seed": 3,
-    "Division": "East"
+    "school": "Baylor",
+    "seed": 3,
+    "division": "East"
   },
   {
-    "School": "Virginia Tech",
-    "Seed": 4,
-    "Division": "East"
+    "school": "Florida",
+    "seed": 4,
+    "division": "East"
   },
   {
-    "School": "Virginia",
-    "Seed": 5,
-    "Division": "East"
+    "school": "Virginia",
+    "seed": 5,
+    "division": "East"
   },
   {
-    "School": "NC Wilmington",
-    "Seed": 6,
-    "Division": "East"
+    "school": "SMU",
+    "seed": 6,
+    "division": "East"
   },
   {
-    "School": "Florida",
-    "Seed": 7,
-    "Division": "East"
+    "school": "South Carolina",
+    "seed": 7,
+    "division": "East"
   },
   {
-    "School": "E Tennessee",
-    "Seed": 8,
-    "Division": "East"
+    "school": "Wisconsin",
+    "seed": 8,
+    "division": "East"
   },
   {
-    "School": "SMU",
-    "Seed": 9,
-    "Division": "East"
+    "school": "Virginia Tech",
+    "seed": 9,
+    "division": "East"
   },
   {
-    "School": "Prov/USC",
-    "Seed": 10,
-    "Division": "East"
+    "school": "Marquette",
+    "seed": 10,
+    "division": "East"
   },
   {
-    "School": "Baylor",
-    "Seed": 11,
-    "Division": "East"
+    "school": "Providence/USC",
+    "seed": 11,
+    "division": "East"
   },
   {
-    "School": "N Mex St",
-    "Seed": 12,
-    "Division": "East"
+    "school": "UNC Wilmington",
+    "seed": 12,
+    "division": "East"
   },
   {
-    "School": "South Carolina",
-    "Seed": 13,
-    "Division": "East"
+    "school": "East Tenn. St.",
+    "seed": 13,
+    "division": "East"
   },
   {
-    "School": "Marquette",
-    "Seed": 14,
-    "Division": "East"
+    "school": "New Mexico St.",
+    "seed": 14,
+    "division": "East"
   },
   {
-    "School": "Duke",
-    "Seed": 15,
-    "Division": "East"
+    "school": "Troy",
+    "seed": 15,
+    "division": "East"
   },
   {
-    "School": "Troy",
-    "Seed": 16,
-    "Division": "East"
+    "school": "MSMC/UNO",
+    "seed": 16,
+    "division": "East"
   },
   {
-    "School": "Gonzaga",
-    "Seed": 1,
-    "Division": "West"
+    "school": "Gonzaga",
+    "seed": 1,
+    "division": "West"
   },
   {
-    "School": "Arizona",
-    "Seed": 2,
-    "Division": "West"
+    "school": "Arizona",
+    "seed": 2,
+    "division": "West"
   },
   {
-    "School": "Florida St",
-    "Seed": 3,
-    "Division": "West"
+    "school": "Florida St",
+    "seed": 3,
+    "division": "West"
   },
   {
-    "School": "West Virginia",
-    "Seed": 4,
-    "Division": "West"
+    "school": "West Virginia",
+    "seed": 4,
+    "division": "West"
   },
   {
-    "School": "Notre Dame",
-    "Seed": 5,
-    "Division": "West"
+    "school": "Notre Dame",
+    "seed": 5,
+    "division": "West"
   },
   {
-    "School": "Maryland",
-    "Seed": 6,
-    "Division": "West"
+    "school": "Maryland",
+    "seed": 6,
+    "division": "West"
   },
   {
-    "School": "St Marys",
-    "Seed": 7,
-    "Division": "West"
+    "school": "St Marys",
+    "seed": 7,
+    "division": "West"
   },
   {
-    "School": "Northwestern",
-    "Seed": 8,
-    "Division": "West"
+    "school": "Northwestern",
+    "seed": 8,
+    "division": "West"
   },
   {
-    "School": "Vanderbilt",
-    "Seed": 9,
-    "Division": "West"
+    "school": "Vanderbilt",
+    "seed": 9,
+    "division": "West"
   },
   {
-    "School": "VCU",
-    "Seed": 10,
-    "Division": "West"
+    "school": "VCU",
+    "seed": 10,
+    "division": "West"
   },
   {
-    "School": "Xavier",
-    "Seed": 11,
-    "Division": "West"
+    "school": "Xavier",
+    "seed": 11,
+    "division": "West"
   },
   {
-    "School": "Princeton",
-    "Seed": 12,
-    "Division": "West"
+    "school": "Princeton",
+    "seed": 12,
+    "division": "West"
   },
   {
-    "School": "Bucknell",
-    "Seed": 13,
-    "Division": "West"
+    "school": "Bucknell",
+    "seed": 13,
+    "division": "West"
   },
   {
-    "School": "FGCU",
-    "Seed": 14,
-    "Division": "West"
+    "school": "FGCU",
+    "seed": 14,
+    "division": "West"
   },
   {
-    "School": "North Dakota",
-    "Seed": 15,
-    "Division": "West"
+    "school": "North Dakota",
+    "seed": 15,
+    "division": "West"
   },
   {
-    "School": "South Dakota St",
-    "Seed": 16,
-    "Division": "West"
+    "school": "South Dakota St",
+    "seed": 16,
+    "division": "West"
   },
   {
-    "School": "Kansas",
-    "Seed": 1,
-    "Division": "Midwest"
+    "school": "Kansas",
+    "seed": 1,
+    "division": "Midwest"
   },
   {
-    "School": "Louisville",
-    "Seed": 2,
-    "Division": "Midwest"
+    "school": "Louisville",
+    "seed": 2,
+    "division": "Midwest"
   },
   {
-    "School": "Oregon",
-    "Seed": 3,
-    "Division": "Midwest"
+    "school": "Oregon",
+    "seed": 3,
+    "division": "Midwest"
   },
   {
-    "School": "Purdue",
-    "Seed": 4,
-    "Division": "Midwest"
+    "school": "Purdue",
+    "seed": 4,
+    "division": "Midwest"
   },
   {
-    "School": "Iowa St.",
-    "Seed": 5,
-    "Division": "Midwest"
+    "school": "Iowa St.",
+    "seed": 5,
+    "division": "Midwest"
   },
   {
-    "School": "Creighton",
-    "Seed": 6,
-    "Division": "Midwest"
+    "school": "Creighton",
+    "seed": 6,
+    "division": "Midwest"
   },
   {
-    "School": "Michigan",
-    "Seed": 7,
-    "Division": "Midwest"
+    "school": "Michigan",
+    "seed": 7,
+    "division": "Midwest"
   },
   {
-    "School": "Miami (Fla.)",
-    "Seed": 8,
-    "Division": "Midwest"
+    "school": "Miami (Fla.)",
+    "seed": 8,
+    "division": "Midwest"
   },
   {
-    "School": "Michigan St.",
-    "Seed": 9,
-    "Division": "Midwest"
+    "school": "Michigan St.",
+    "seed": 9,
+    "division": "Midwest"
   },
   {
-    "School": "Oklahoma St.",
-    "Seed": 10,
-    "Division": "Midwest"
+    "school": "Oklahoma St.",
+    "seed": 10,
+    "division": "Midwest"
   },
   {
-    "School": "Rhode Island",
-    "Seed": 11,
-    "Division": "Midwest"
+    "school": "Rhode Island",
+    "seed": 11,
+    "division": "Midwest"
   },
   {
-    "School": "Nevada",
-    "Seed": 12,
-    "Division": "Midwest"
+    "school": "Nevada",
+    "seed": 12,
+    "division": "Midwest"
   },
   {
-    "School": "Vermont",
-    "Seed": 13,
-    "Division": "Midwest"
+    "school": "Vermont",
+    "seed": 13,
+    "division": "Midwest"
   },
   {
-    "School": "Iona",
-    "Seed": 14,
-    "Division": "Midwest"
+    "school": "Iona",
+    "seed": 14,
+    "division": "Midwest"
   },
   {
-    "School": "Jax. State",
-    "Seed": 15,
-    "Division": "Midwest"
+    "school": "Jax. State",
+    "seed": 15,
+    "division": "Midwest"
   },
   {
-    "School": "NCCENT/UCD",
-    "Seed": 16,
-    "Division": "Midwest"
+    "school": "NCCENT/UCD",
+    "seed": 16,
+    "division": "Midwest"
   },
   {
-    "School": "N. Carolina",
-    "Seed": 1,
-    "Division": "South"
+    "school": "N. Carolina",
+    "seed": 1,
+    "division": "South"
   },
   {
-    "School": "Kentucky",
-    "Seed": 2,
-    "Division": "South"
+    "school": "Kentucky",
+    "seed": 2,
+    "division": "South"
   },
   {
-    "School": "UCLA",
-    "Seed": 3,
-    "Division": "South"
+    "school": "UCLA",
+    "seed": 3,
+    "division": "South"
   },
   {
-    "School": "Butler",
-    "Seed": 4,
-    "Division": "South"
+    "school": "Butler",
+    "seed": 4,
+    "division": "South"
   },
   {
-    "School": "Minnesota",
-    "Seed": 5,
-    "Division": "South"
+    "school": "Minnesota",
+    "seed": 5,
+    "division": "South"
   },
   {
-    "School": "Cincinatti",
-    "Seed": 6,
-    "Division": "South"
+    "school": "Cincinatti",
+    "seed": 6,
+    "division": "South"
   },
   {
-    "School": "Dayton",
-    "Seed": 7,
-    "Division": "South"
+    "school": "Dayton",
+    "seed": 7,
+    "division": "South"
   },
   {
-    "School": "Arkansas",
-    "Seed": 8,
-    "Division": "South"
+    "school": "Arkansas",
+    "seed": 8,
+    "division": "South"
   },
   {
-    "School": "Seton Hall",
-    "Seed": 9,
-    "Division": "South"
+    "school": "Seton Hall",
+    "seed": 9,
+    "division": "South"
   },
   {
-    "School": "Wichita St.",
-    "Seed": 10,
-    "Division": "South"
+    "school": "Wichita St.",
+    "seed": 10,
+    "division": "South"
   },
   {
-    "School": "KSTATE/WF",
-    "Seed": 11,
-    "Division": "South"
+    "school": "KSTATE/WF",
+    "seed": 11,
+    "division": "South"
   },
   {
-    "School": "Middle Tenn.",
-    "Seed": 12,
-    "Division": "South"
+    "school": "Middle Tenn.",
+    "seed": 12,
+    "division": "South"
   },
   {
-    "School": "Winthrop",
-    "Seed": 13,
-    "Division": "South"
+    "school": "Winthrop",
+    "seed": 13,
+    "division": "South"
   },
   {
-    "School": "Kent St.",
-    "Seed": 14,
-    "Division": "South"
+    "school": "Kent St.",
+    "seed": 14,
+    "division": "South"
   },
   {
-    "School": "N. Kentucky",
-    "Seed": 15,
-    "Division": "South"
+    "school": "N. Kentucky",
+    "seed": 15,
+    "division": "South"
   },
   {
-    "School": "Texas Southern",
-    "Seed": 16,
-    "Division": "South"
+    "school": "Texas Southern",
+    "seed": 16,
+    "division": "South"
   }
 ]
