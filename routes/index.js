@@ -9,7 +9,7 @@ router.get('/', function (req, res, next) {
 
   res.render('index',
     {
-      title: 'Bracket Picker',
+      title: '#beatmarc',
       games: JSON.stringify(games, null, 4),
       champion: games[1].school,
       seed: games[1].seed
