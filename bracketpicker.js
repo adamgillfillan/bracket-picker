@@ -46,7 +46,7 @@ const init = () => {
       midwest: []
     },
     2: {},
-    champion: {}
+    1: {}
   };
 };
 
@@ -58,7 +58,7 @@ const getWinner = (home, away, strategy) => {
   }
 };
 
-const doRound = (round) => {
+const doRound = (round, strategy) => {
   for (let division in games[round]) {
     for (let i=0; i < (round / 8); i++) {
       let home, away;
@@ -71,21 +71,21 @@ const doRound = (round) => {
         away = games[round][division][games[round][division].length - (i + 1)].winner;
       }
 
-      games[round/2][division].push(getWinner(home, away, 'coinflip'));
+      games[round/2][division].push(getWinner(home, away, strategy));
     }
   }
 };
 
-const doFinalFour = () => {
-  doRound(64);
-  doRound(32);
-  doRound(16);
-  doRound(8);
+const doFinalFour = (strategy) => {
+  doRound(64, strategy);
+  doRound(32, strategy);
+  doRound(16, strategy);
+  doRound(8, strategy);
 
-  let home = getWinner(games[4].east[0].winner, games[4].west[0].winner, 'coinflip');
-  let away = getWinner(games[4].south[0].winner, games[4].midwest[0].winner, 'coinflip');
+  let home = getWinner(games[4].east[0].winner, games[4].west[0].winner, strategy);
+  let away = getWinner(games[4].south[0].winner, games[4].midwest[0].winner, strategy);
 
-  games[2] = {home, away};
+  games[2] = {home: home.winner, away: away.winner};
 };
 
 // bracketmanager
@@ -96,13 +96,12 @@ const bm = module.exports = {
   south: divisions.south,
   midwest: divisions.midwest,
 
-  createBracket: () => {
+  createBracket: (strategy) => {
     init();
-    doFinalFour();
+    doFinalFour(strategy);
 
-    games.champion = getWinner(games[2].home.winner, games[2].away.winner, 'coinflip');
+    games[1] = getWinner(games[2].home, games[2].away, strategy).winner;
 
-    console.log(games.champion.winner);
     return games;
   },
 };

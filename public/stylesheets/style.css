@@ -6,3 +6,8 @@ body {
 a {
   color: #00B7FF;
 }
+
+#games-container {
+  max-width: 750px;
+  margin-top: 15px;
+}

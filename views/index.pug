@@ -2,5 +2,8 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
-  p #{teams}
+  button#coin-flip Coin Flip
+  div#games-container
+    div.h3 Coin Flip Champion:
+      span#champion  #{champion} (#{seed})
+    pre#games.prettyprint #{games}
