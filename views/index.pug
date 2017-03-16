@@ -2,8 +2,14 @@ extends layout
 
 block content
   h1= title
-  button#coin-flip Coin Flip
-  div#games-container
+  div#coinflip-container.games-container
+    button#coinflip.games-btn By Coin Flip
     div.h3 Coin Flip Champion:
-      span#champion  #{champion} (#{seed})
-    pre#games.prettyprint #{games}
+      span#coinflip-champion  #{champion} (#{seed})
+    pre#coinflip-games.prettyprint.games-box #{games}
+
+  div#seed-container.games-container
+    button#seed.games-btn By Seed
+    div.h3 Seed Champion:
+      span#seed-champion  #{champion} (#{seed})
+    pre#seed-games.prettyprint.games-box #{games}

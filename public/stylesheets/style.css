@@ -7,7 +7,19 @@ a {
   color: #00B7FF;
 }
 
-#games-container {
-  max-width: 750px;
-  margin-top: 15px;
+.games-btn {
+  margin-bottom: 15px;
+}
+
+.games-container {
+  margin-top: 5px;
+  display: inline-block;
+  max-width: 440px;
+  margin-right: 15px;
+}
+
+.games-box {
+  max-width: 425px;
+  max-height: 1000px;
+  overflow: scroll;
 }

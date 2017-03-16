@@ -51,11 +51,23 @@ const init = () => {
 };
 
 const getWinner = (home, away, strategy) => {
-  if (strategy === 'coinflip') {
-    const winner = (Math.random() > .5) ? home : away;
+  let winner = '';
 
-    return {home, away, winner};
+  if (strategy === 'coinflip') {
+    winner = (Math.random() > .5) ? home : away;
   }
+
+  if (strategy === 'seed') {
+    winner = away;
+
+    if (home.seed < away.seed) {
+      winner = home;
+    } else if (home.seed === away.seed) {
+      winner = (Math.random() > .5) ? home : away;
+    }
+  }
+
+  return {home, away, winner};
 };
 
 const doRound = (round, strategy) => {
